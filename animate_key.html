@@ -73,16 +73,16 @@
 	
 	<p>A few things to note from this example...</p>
 	<ul>
-		<li>You may have noticed the use of <b>+=</b> for changing the width property. In the example, this code means "increase the div's width to 300px <b>relative</b> to its current width value".</li>
+		<li>You may have noticed the use of <b>+=</b> for changing the width property. In the example, this code means "increase the div's width by 300px.  This is why the div get wider each time you click on the button.</li>
 		<li>In the CSS for the div, the position was set to absolute. In CSS all elements default to a static position, so we set the position to absolute to allow the div to move to the right when the left property is changed.</li>
 		<li>You can change multiple CSS properties in one animate() call!</li>
 		<li>If you continue to click the button, the div stops moving to the right? This happens because the div reached left: 250px. How might you change the jQuery code so that it continues to move to the right?</li>
 		<li>The font size was changed with the variable <b>fontSize</b>. Remember that in JavaScript, variables are camel-cased, so even though the CSS property is <b>font-size</b>, with jQuery, it must be camel-cased to <b>fontSize</b>.</li>
 	</ul>
 
-	<p>This example was rather simple though, what if we want to animate something multiple times in a row, each time with different animations?</p>
+	<p>Now, what if we want to animate something multiple times in a row, each time with different animations?</p>
 
-	<p>Luckily this is easy, because of jQuery's queue functionality. Essentially, if you write multiple calls to animate(), each call will be put into a queue and one after another they will run.</p>
+	<p>If you write multiple calls to animate(), each call will be executed one after another.</p>
 
 	<img src="animate_img1.png" alt="some jQuery code">
 
@@ -99,8 +99,7 @@
 	<br><br>
 
 	<br><br>
-	<h5>Sources:</h5>
-	<p>If you'd like to see a tutorial far better looking than this one, visit the following link!</p>
+	<p>More about jQuery animate:</p>
 	<a href="https://www.w3schools.com/jquery/jquery_animate.asp" target="_blank">W3 Schools - jQuery Animate</a>
 
 
