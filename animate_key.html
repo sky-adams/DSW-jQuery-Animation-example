@@ -62,7 +62,7 @@
 
 	<h5>Example:</h5>
 
-	<p>The following jQuery code will move the square HTML div to the right, increase the size of the text in the div, and change the opaqueness of the div's background color.</p>
+	<p>The following jQuery code will move the square HTML div to the right, increases the width of the div, increase the size of the text in the div, and change the opaqueness of the div's background color.</p>
 
 	<img src="animate_img2.png" alt="some jQuery code">
 	<br><br>
@@ -73,9 +73,9 @@
 	
 	<p>A few things to note from this example...</p>
 	<ul>
+		<li>You can change multiple CSS properties in one animate() call!</li>
 		<li>You may have noticed the use of <b>+=</b> for changing the width property. In the example, this code means "increase the div's width by 300px.  This is why the div get wider each time you click on the button.</li>
 		<li>In the CSS for the div, the position was set to relative. In CSS all elements default to a static position, so we set the position to relative (or sometimes absolute) to allow the div to move to the right when the left property is changed.</li>
-		<li>You can change multiple CSS properties in one animate() call!</li>
 		<li>If you continue to click the button, the div stops moving to the right? This happens because the div reached left: 250px. How might you change the jQuery code so that it continues to move to the right?</li>
 		<li>The font size was changed with the variable <b>fontSize</b>. Remember that in JavaScript, variables are camel-cased, so even though the CSS property is <b>font-size</b>, with jQuery, it must be camel-cased to <b>fontSize</b>.</li>
 	</ul>
